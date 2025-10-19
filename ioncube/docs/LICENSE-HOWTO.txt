@@ -1,0 +1,77 @@
+                    The ionCube Encoder - Version 14.0
+                    ----------------------------------
+
+LICENSING THE ENCODER
+=====================
+
+The Encoder software comes with an allocation of 1 or more licenses.
+Each license can be activated on any machine with an active Ethernet network
+adapter as explained below.
+
+Licenses can be obtained automatically via the Internet if a license slot
+is available for use. A license can be deactivated over the Internet
+if you need to move the license to a different machine. The license
+should also be deactivated before making changes to the machine 
+(e.g. switching OS).
+
+
+To activate a license over the Internet
+---------------------------------------
+
+First:
+
+* Be sure that you have installed the Encoder in the location where you wish
+  use it permanently as moving a licensed Encoder can invalidate the license.
+  A location such as /usr/local may be better than a user Home directory. 
+  The location must be writeable during the licensing process so the license
+  file can be created and updated.
+
+* If all licenses are in use and you have another machine which needs 
+  licensing then you can deactivate a license on a machine you no
+  longer require or purchase an additional license.
+
+* Check that you have an active Internet connection. 
+
+Then:
+
+* Run with the option --activate, e.g.
+
+  ./ioncube_encoder.sh --activate
+
+
+To deactivate a license over the Internet
+-----------------------------------------
+
+First:
+
+* Be sure that the Encoder install directory is writeable.
+
+* Check that you have an active Internet connection. 
+
+Then:
+
+* Run with the option --deactivate, e.g.
+
+  ./ioncube_encoder.sh --deactivate
+
+  
+  After a few seconds the Encoder should say that the license has been
+  released.
+
+
+PROBLEMS?
+=========
+
+If you have a problem activating or deactivating a license, or if you
+do not have an active Internet connection, you can try using the
+manual process described at:
+
+      https://www.ioncube.com/guides/encoder-licensing.php
+
+
+If continue to have a problem or cannot use the methods described above,
+please contact us via https://support.ioncube.com and we will be
+happy to help you.
+
+
+Copyright (c) 2002-2025 ionCube Ltd.

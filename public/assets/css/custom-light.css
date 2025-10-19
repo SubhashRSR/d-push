@@ -1,0 +1,155 @@
+.login-logo{
+  width: 400px;
+  max-width: 80%;
+}
+.auth.login-bg {
+  background: url(https://source.unsplash.com/1920x1080/?wallpaper);
+  background-size: cover;
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand{
+  padding: 10px !important;
+  margin-top: 15px;
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand img{
+  width: auto;
+  height: auto;
+  max-height: 50px;
+}
+.sidebar .sidebar-brand-wrapper .sidebar-brand.brand-logo-mini img{
+  width: auto;
+  height: auto;
+  margin-top: -15px;
+  max-width: 50px;
+}
+
+.notification_time{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.preview-item-content>.preview-subject{
+  min-width: 100px;
+}
+
+.navbar .navbar-menu-wrapper .count-indicator .count {
+  position: absolute;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  color: #ffffff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: .625rem;
+  line-height: 1.5;
+  top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .content-wrapper{
+    padding: 20px;
+  }
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img{
+  height: auto;
+  width: auto;
+}
+.sidebar .nav .nav-item.locked a.nav-link{
+  background: #00000000;
+  border-radius: 0px;
+}
+.sidebar .nav .nav-item.locked .lock{
+  background: #00000055;
+  border-radius: 0px;
+  height: 100%;
+}
+.nav-item{
+  position: relative;
+}
+.nav-item>.lock>.mdi:before{
+  vertical-align: baseline;
+}
+
+.nav-item>.lock{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.sidebar .nav .nav-item .lock i{
+  color: #fff !important;
+}
+.sidebar .nav .nav-item .lock:hover i{
+  color: var(--primary) !important;
+}
+
+.form-control:disabled, .asColorPicker-input:disabled, .dataTables_wrapper select:disabled, .jsgrid .jsgrid-table .jsgrid-filter-row input:disabled[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select:disabled, .jsgrid .jsgrid-table .jsgrid-filter-row input:disabled[type=number], .select2-container--default .select2-selection--single:disabled, .select2-container--default .select2-selection--single .select2-search__field:disabled, .typeahead:disabled, .tt-query:disabled, .tt-hint:disabled, .form-control[readonly], .asColorPicker-input[readonly], .dataTables_wrapper select[readonly], .jsgrid .jsgrid-table .jsgrid-filter-row input[readonly][type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select[readonly], .jsgrid .jsgrid-table .jsgrid-filter-row input[readonly][type=number], .select2-container--default .select2-selection--single[readonly], .select2-container--default .select2-selection--single .select2-search__field[readonly], .typeahead[readonly], .tt-query[readonly], .tt-hint[readonly]{
+  background-color: #eee;
+  color: #6c7293;
+}
+
+.dataTables_wrapper .dataTable .btn, .dataTables_wrapper .dataTable .fc button, .fc .dataTables_wrapper .dataTable button, .dataTables_wrapper .dataTable .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .dataTables_wrapper .dataTable .ajax-file-upload, .dataTables_wrapper .dataTable .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper .dataTables_wrapper .dataTable .swal2-styled, .dataTables_wrapper .dataTable .wizard > .actions a, .wizard > .actions .dataTables_wrapper .dataTable a{
+  padding: 6px 12px;
+}
+
+.swal2-popup.swal2-toast{
+  box-shadow: 0 0 0.625em #010101;
+}
+
+.select2-search__field{
+  color: #fff;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+  font-size: .825rem;
+}
+
+.badge {
+  border-radius: .125rem;
+  font-size: 0.625rem;
+  font-weight: initial;
+  line-height: 1;
+  padding: .25rem .375rem;
+  font-weight: 600;
+  }
+  .badge.badge-pill {
+    border-radius: 10rem; }
+
+.dataTables_wrapper label{
+  font-size: 0.625rem;
+}
+
+.mdi:before{
+  vertical-align: -2px;
+}
+
+pre{
+  background-color: transparent;
+}
+
+@media (max-width: 480px){
+  .main-panel{
+    padding-top: 70px;
+  }
+  
+  .navbar .navbar-brand-wrapper {
+    width: 200px;
+    padding-top: 20px;
+  }
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.select2-search__field{
+  color: #000000;
+}
+
+.navbar{
+  z-index: 1300;
+}

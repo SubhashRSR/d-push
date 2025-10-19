@@ -1,0 +1,327 @@
+#larapush-optin .larapush-optin--mr-5 {
+    margin-right: 5px
+}
+
+#larapush-optin .larapush-optin--mr-10 {
+    margin-right: 10px
+}
+
+#larapush-optin .larapush-optin--mr-15 {
+    margin-right: 15px
+}
+
+#larapush-optin .larapush-optin--mr-20 {
+    margin-right: 20px
+}
+
+#larapush-optin .larapush-optin--mt-5 {
+    margin-top: 5px
+}
+
+#larapush-optin .larapush-optin--mt-10 {
+    margin-top: 10px
+}
+
+#larapush-optin .larapush-optin--mt-15 {
+    margin-top: 15px
+}
+
+#larapush-optin .larapush-optin--mt-20 {
+    margin-top: 20px
+}
+
+#larapush-optin .larapush-optin--mb-5 {
+    margin-bottom: 5px
+}
+
+#larapush-optin .larapush-optin--mb-10 {
+    margin-bottom: 10px
+}
+
+#larapush-optin .larapush-optin--mb-15 {
+    margin-bottom: 15px
+}
+
+#larapush-optin .larapush-optin--mb-20 {
+    margin-bottom: 20px
+}
+
+#larapush-optin .larapush-optin--ml-5 {
+    margin-left: 5px
+}
+
+#larapush-optin .larapush-optin--ml-10 {
+    margin-left: 10px
+}
+
+#larapush-optin .larapush-optin--ml-15 {
+    margin-left: 15px
+}
+
+#larapush-optin .larapush-optin--ml-20 {
+    margin-left: 20px
+}
+
+#larapush-optin .larapush-optin--line-clamp {
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: relative;
+    line-height: 1.25;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0
+}
+
+#larapush-optin .larapush-optin--line-clamp-2,
+#larapush-optin .larapush-optin--line-clamp-4 {
+    line-height: 1.25em!important
+}
+
+@supports (-webkit-line-clamp:1) {
+    #larapush-optin .larapush-optin--line-clamp:after {
+        display: none!important
+    }
+}
+
+#larapush-optin .larapush-optin--line-clamp-1 {
+    -webkit-line-clamp: 1;
+    max-height: calc(1em * 1.5 * 1)
+}
+
+#larapush-optin .larapush-optin--line-clamp-2 {
+    -webkit-line-clamp: 2;
+    max-height: calc(1em * 1.5 * 2)
+}
+
+#larapush-optin .larapush-optin--line-clamp-3 {
+    -webkit-line-clamp: 3;
+    max-height: calc(1em * 1.5 * 3)
+}
+
+#larapush-optin .larapush-optin--line-clamp-4 {
+    -webkit-line-clamp: 4;
+    max-height: calc(1em * 1.5 * 4)
+}
+
+#larapush-optin .larapush-optin--line-clamp-5 {
+    -webkit-line-clamp: 5;
+    max-height: calc(1em * 1.5 * 5)
+}
+
+#larapush-optin .larapush-optin--line-clamp-8 {
+    -webkit-line-clamp: 8;
+    max-height: calc(1em * 1.5 * 8)
+}
+
+#larapush-optin .iz-row {
+    display: flex
+}
+
+#larapush-optin .iz-row--space-btwn {
+    justify-content: space-between
+}
+
+#larapush-optin .iz-row--flex-end {
+    justify-content: flex-end
+}
+
+#larapush-optin .iz-col {
+    display: flex;
+    flex-direction: column
+}
+
+#larapush-optin .iz-col--content-center {
+    justify-content: center
+}
+
+@-webkit-keyframes larapushSlideInDown {
+    0% {
+        -webkit-transform: translate3d(-50%, -100%, 0);
+        transform: translate3d(-50%, -100%, 0);
+        visibility: visible
+    }
+    to {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+@keyframes larapushSlideInDown {
+    0% {
+        -webkit-transform: translate3d(-50%, -100%, 0);
+        transform: translate3d(-50%, -100%, 0);
+        visibility: visible
+    }
+    to {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+#larapush-optin.larapush-optin--preview-container {
+    position: fixed;
+    z-index: 99999999;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    font-family: Arial, 'Helvetica Neue', sans-serif!important
+}
+
+#larapush-optin.larapush-optin--dialog-box {
+    width: 400px;
+    top: 0;
+    bottom: unset;
+    left: 50%;
+    background: #ffffff;
+    transform: translate(-50%, 0);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -2px 16px rgba(0, 0, 0, .1);
+    padding: 16px 13px;
+    /* webkit-animation-name: larapushSlideInDown;
+    animation-name: larapushSlideInDown;
+    webkit-animation-duration: .8s; */
+    /* animation-duration: .8s; */
+    /* -webkit-animation-fill-mode: none; */
+    /* animation-fill-mode: none */
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--icon-wrapper {
+    width: 50px;
+    height: 50px
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--icon-wrapper .larapush-optin--icon {
+    max-height: 50px;
+    margin-top: -3px
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--content {
+    width: 100%
+}
+
+#larapush-optin .larapush-optin--content .larapush-optin--title span {
+    color: #454545;
+    font-size: 16px;
+    word-break: break-word;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif!important
+}
+
+#larapush-optin .larapush-optin--content .larapush-optin--message span {
+    color: #666666;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif!important
+}
+
+#larapush-optin .larapush-optin--ctas-container .larapush-optin--cta {
+    box-sizing: border-box;
+    text-transform: unset;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 13px;
+    letter-spacing: 0.75px;
+    min-width: 100px;
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif!important;
+    transition: all ease-in .3s
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--ctas-container .larapush-optin--cta.larapush-optin--cta-later {
+    background-color: #ffffff!important;
+    color: #666666!important;
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--ctas-container .larapush-optin--cta.larapush-optin--cta-allow {
+    background-color: #0652DD;
+    color: #ffffff!important;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--branding-wrapper {
+    position: absolute;
+    width: auto;
+    line-height: 1
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--branding-wrapper .larapush-optin--branding-text {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif!important;
+    letter-spacing: 0.4px;
+    color: #747474
+}
+
+#larapush-optin.larapush-optin--dialog-box .larapush-optin--branding-wrapper .larapush-optin--larapush-txt {
+    color: #0652DD;
+}
+
+@media screen and (max-width:440px) {
+    body {
+        margin: 0;
+    }
+    @-webkit-keyframes larapushSlideInUp {
+        0% {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+            visibility: visible
+        }
+        to {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+    }
+    @keyframes larapushSlideInUp {
+        0% {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+            visibility: visible
+        }
+        to {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0)
+        }
+    }
+    #larapush-optin.larapush-optin--dialog-box {
+        width: 100%;
+        bottom: 0;
+        left: unset;
+        top: unset;
+        padding: 15.75px 10.5px;
+        webkit-animation-name: larapushSlideInUp;
+        animation-name: larapushSlideInUp;
+        transform: unset;
+        -webkit-transform: unset
+    }
+    #larapush-optin .larapush-optin--content .larapush-optin--title span {
+        font-size: 16px
+    }
+    #larapush-optin .larapush-optin--content .larapush-optin--message span {
+        font-size: 13px
+    }
+    #larapush-optin .larapush-optin--ctas-container .larapush-optin--cta {
+        min-width: 85px;
+        max-width: calc(100% - 85px)
+    }
+}
